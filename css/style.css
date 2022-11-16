@@ -372,12 +372,12 @@ h6,
 }
 
 .team-item img {
-    position: relative;
+    
     z-index: 2;
 }
 
 .team-item .team-text {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 3rem;
     bottom: 0;
@@ -386,6 +386,8 @@ h6,
     border: 0px solid var(--light);
     border-radius: 8px;
     display: flex;
+    height: 400px;
+    width: 250px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
